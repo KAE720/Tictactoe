@@ -111,3 +111,12 @@ return;
 
 
 }
+
+// Allow manual move input via the terminal
+// Example:
+GameLogic.placeMove(0, 0);  // You can test moves like this
+
+// Optional: Print board after move
+console.log(GameBoard.array);
+console.log(`Score: ${player1.name} ${player1.score} - ${player2.name} ${player2.score}`);
+
